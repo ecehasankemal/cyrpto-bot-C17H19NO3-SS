@@ -1,0 +1,17 @@
+Proje ne yönde amaç güdüyor?
+  Bu sorunun cevabı olarak anlık borsa takibi yaparak en minimize zarar tespiti üzerine bir diğer artışta olan
+  ürüne sermayeyi arttırarak. maximum geliri amaçlayan arka planda kendi kendine iş yapan ve insan gücüne
+  ihtiyaç duymayan bir formatta hareket eden bir borsa botu olmayı amaç güdüyor.
+
+Peki nasıl olacak?
+  Öncelikli olarak botun günlük bir hedefi olacak. atıyorum 1000$ bu hedefe ulaştığı an sermayeyi nakite dönüştürüp
+  sana iletecek. İşleyiş olarak olarak okuduğu datalar ile anlık kâr zarar çıkarımı yapıp en doğru yatırımı
+  yapcak ve sermayeyi oraya taşıyacak. ürünün düşmesi durumunda bir zarar oranı belirleyeceğiz atıyorum ki %10
+  düştüğü zaman sermayeyi kâr marjı yüksek olan ürüne yatıracak ve kâr elde etmeye devam edecek.
+
+Peki bu bot insanın yapması gereken hangi işleri kendisi üslenecek?
+  Bu sorunun cevabını madde madde ilerleyelim.
+ 1. Zaman: İnsanlar sürekli borsa takip edip durmak zorunda kalmayacak.
+ 2. Sermayeyi üründen ürüne kendisi aktaracak: Sürekli artış azalışı insan takip etmeyeceği için anlık olarak aktarması
+ durumunda bu eylemi botun kendisi yapacak.
+ 3. Sınırlandırma kontrolü: Günlük bir iştikakı olduğunu söylemiştik. o iştikaka riayet edecek şekilde çalışacak.
