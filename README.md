@@ -40,3 +40,7 @@ npm run train
 ```bash
 npm run data
 ```
+
+
+
+NOT: Projenin bu kısma kadar olanını https://github.com/C17H19NO3-SS/ sayfası üstlenmiştir.
