@@ -9,7 +9,7 @@ apt-get install nodejs npm -y
 - Projeyi indirin.
 
 ```bash
-git clone ...
+git clone https://github.com/ecehasankemal/cyrpto-bot-C17H19NO3-SS/
 ```
 
 - Gerekli modülleri yükleyin.
