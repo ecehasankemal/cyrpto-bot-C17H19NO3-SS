@@ -1,0 +1,21 @@
+{
+  "name": "piyasa",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "brain.js": "1.6.1",
+    "keras-js": "^1.0.3",
+    "okx-api": "^1.4.3",
+    "worker-farm": "^1.7.0"
+  },
+  "scripts": {
+    "train": "node train.js",
+    "data": "node data.js"
+  }
+}
