@@ -1,17 +1,46 @@
-Proje ne yönde amaç güdüyor?
-  Bu sorunun cevabı olarak anlık borsa takibi yaparak en minimize zarar tespiti üzerine bir diğer artışta olan
-  ürüne sermayeyi arttırarak. maximum geliri amaçlayan arka planda kendi kendine iş yapan ve insan gücüne
-  ihtiyaç duymayan bir formatta hareket eden bir borsa botu olmayı amaç güdüyor.
+--------------------------Proje Ne Yönde Bir Amaç Güdüyor?
 
-Peki nasıl olacak?
-  Öncelikli olarak botun günlük bir hedefi olacak. atıyorum 1000$ bu hedefe ulaştığı an sermayeyi nakite dönüştürüp
-  sana iletecek. İşleyiş olarak olarak okuduğu datalar ile anlık kâr zarar çıkarımı yapıp en doğru yatırımı
-  yapcak ve sermayeyi oraya taşıyacak. ürünün düşmesi durumunda bir zarar oranı belirleyeceğiz atıyorum ki %10
-  düştüğü zaman sermayeyi kâr marjı yüksek olan ürüne yatıracak ve kâr elde etmeye devam edecek.
+Bu projenin amacı, borsa piyasasındaki anlık gelişmeleri takip eden, riskleri en aza indirip kazancı maksimize eden,
+tamamen otonom çalışan bir borsa botu oluşturmaktır. İnsan müdahalesine ihtiyaç duymadan, veri analizine dayalı kararlar
+alarak yatırım yapacak ve sermayeyi doğru şekilde yönetecek bir sistem hedefliyoruz. İşin özünde bot, insanın sürekli
+piyasayı izleyip strateji kurmak zorunda kaldığı zahmeti ortadan kaldıracak ve bunu en iyi şekilde yapacak.
 
-Peki bu bot insanın yapması gereken hangi işleri kendisi üslenecek?
-  Bu sorunun cevabını madde madde ilerleyelim.
- 1. Zaman: İnsanlar sürekli borsa takip edip durmak zorunda kalmayacak.
- 2. Sermayeyi üründen ürüne kendisi aktaracak: Sürekli artış azalışı insan takip etmeyeceği için anlık olarak aktarması
- durumunda bu eylemi botun kendisi yapacak.
- 3. Sınırlandırma kontrolü: Günlük bir iştikakı olduğunu söylemiştik. o iştikaka riayet edecek şekilde çalışacak.
+--------------------------Peki Nasıl Olacak?
+
+Botun günlük bir hedefi olacak, örneğin 1000$ kâr. Bu hedefe ulaştığı an tüm işlemleri durdurup sermayeyi nakde çevirecek
+ve sana bilgi verecek. Tüm işlem süreçlerini anlık verilerle kâr-zarar hesabı yaparak yönetecek. Piyasa şartlarına göre
+en kârlı yatırımları bulacak ve sermayeyi oraya aktaracak. Diyelim ki bir yatırım %10 zarar gördü, bot bunu fark eder
+etmez sermayeyi daha iyi bir fırsata yönlendirip kazanç sağlamaya devam edecek.
+
+--------------------------İnsanların Yapması Gereken Hangi İşleri Bu Bot Üstlenecek?
+Bu sorunun cevabını şöyle açıklayalım:
+
+1. Zaman: İnsanlar artık sürekli ekran başında borsa takip etmek zorunda kalmayacak.
+
+2. Sermaye Yönetimi: Bot, anlık piyasa değişikliklerine göre sermayeyi bir üründen
+diğerine otomatik olarak aktaracak. İnsanların sürekli takip edip müdahale etmesine gerek kalmayacak.
+
+3. Kâr Sınırlandırması: Botun belirli bir günlük hedefi olacak. Bu hedefe ulaştığında işlemleri
+durdurup sermayeyi güvenli bir şekilde nakde çevirerek seni bilgilendirecek.
+
+--------------------------Teknik Detaylar:
+
+Veri Toplama: Bot, API’ler aracılığıyla anlık borsa verilerini çeker. Piyasa hareketlerini, hacim değişimlerini
+ve fiyat dalgalanmalarını takip eder. Bu verilerle kapsamlı analizler yapar.
+
+Algoritmik İşlem: Her saniye kâr-zarar hesaplaması yapar. Zararı durdur mekanizması devrede olacak; diyelim ki
+yatırım %10 düştü, bot bunu görür ve en yüksek getiriyi sağlayacak başka bir varlığa yönelir. Bu sayede zarar minimuma indirilir.
+
+Makine Öğrenmesi: Bot zamanla öğrenerek piyasa hareketlerini daha doğru tahmin etmeye başlar. Geçmiş verilerden
+ders çıkarır ve gelecekteki işlemler için stratejilerini optimize eder.
+
+Risk Yönetimi: Bot, portföy çeşitlendirmesi yaparak riski dağıtır. Her yatırım aynı risk seviyesinde olmayacak,
+sermaye farklı varlıklara yayılacak. Belirlenen zarar limitleri dahilinde, daha riskli varlıklardan güvenli limanlara geçiş yapılacak.
+
+Otomasyon: İşlemler tamamen otomatik. İnsan müdahalesine gerek yok. Bot, 24 saat boyunca durmaksızın çalışarak
+piyasa fırsatlarını kollar. Hızlı işlem kabiliyeti sayesinde insanın manuel olarak yapamayacağı hızda alım-satım işlemleri gerçekleştirir.
+
+--------------------------Gelişmiş Raporlama ve Bildirim:
+
+Bot, hedefe ulaştığında veya belirlenen zarar eşiği aşıldığında anlık bildirimlerle seni haberdar edecek.
+Aynı zamanda günlük veya haftalık raporlarla botun performansını ve yatırım stratejilerini gözden geçirebileceksin.
